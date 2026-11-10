@@ -16421,3 +16421,159 @@ div#mCSB_1_container{
 .branches-section .single-item .mail-box a:hover{
 	color: #fff;
 }
+.header-lower {
+    height: 100px !important;
+    min-height: 100px !important;
+}
+
+.header-lower .outer-box {
+    height: 100px !important;
+    min-height: 100px !important;
+    display: flex;
+    align-items: center;
+}
+
+.header-lower .logo-box {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.header-lower .logo {
+    margin: 0 !important;
+    line-height: 0;
+    overflow: visible !important;
+}
+
+.header-lower .logo img {
+    width: 150px !important;
+    height: 55px !important;
+    max-width: none !important;
+    object-fit: contain;
+    transform: scale(1.8);
+    transform-origin: left center;
+}
+/* Black Navbar Background */
+.header-lower {
+    background-color: #000000 !important;
+}
+
+/* Navbar Layout */
+.header-lower .outer-box {
+    background-color: #000000 !important;
+}
+
+/* Navigation Text */
+.header-lower .main-menu .navigation > li > a {
+    color: #ffffff !important;
+}
+
+/* Navigation Hover */
+.header-lower .main-menu .navigation > li > a:hover {
+    color: #d4a017 !important;
+}
+
+/* Active Menu */
+.header-lower .main-menu .navigation > li.current > a {
+    color: #d4a017 !important;
+}
+
+/* Social Media Icons */
+.header-lower .social-links li a {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* Social Icon Hover */
+.header-lower .social-links li a:hover {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* Mobile Menu Icon */
+.header-lower .mobile-nav-toggler .icon-bar {
+    background-color: #ffffff !important;
+}
+
+
+/* Sticky Header Background */
+.sticky-header {
+    background-color: #000000 !important;
+    height: 100px !important;
+    min-height: 100px !important;
+}
+
+/* Sticky Header Layout */
+.sticky-header .outer-box {
+    background-color: #000000 !important;
+    height: 100px !important;
+    min-height: 100px !important;
+    display: flex;
+    align-items: center;
+}
+
+/* Sticky Logo */
+.sticky-header .logo-box {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.sticky-header .logo {
+    margin: 0 !important;
+    line-height: 0;
+    overflow: visible !important;
+}
+
+.sticky-header .logo img {
+    width: 150px !important;
+    height: 55px !important;
+    max-width: none !important;
+    object-fit: contain;
+    transform: scale(1.8);
+    transform-origin: left center;
+}
+
+/* Sticky Navigation Text */
+.sticky-header .main-menu .navigation > li > a {
+    color: #ffffff !important;
+}
+
+/* Navigation Hover */
+.sticky-header .main-menu .navigation > li > a:hover {
+    color: #d4a017 !important;
+}
+
+/* Active Navigation */
+.sticky-header .main-menu .navigation > li.current > a {
+    color: #d4a017 !important;
+}
+
+/* Social Media Icons */
+.sticky-header .social-links li a {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* Social Icon Hover */
+.sticky-header .social-links li a:hover {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.social-links li a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links li a i {
+    line-height: 1;
+    text-align: center;
+}
+
+
