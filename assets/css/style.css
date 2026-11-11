@@ -2854,30 +2854,22 @@ div#mCSB_1_container{
 	margin-bottom: 32px;
 }
 
-.highlights-block-one .inner-box .more-btn a{
-	position: relative;
-	display: inline-block;
-	width: 90px;
-	height: 90px;
-	line-height: 98px;
-	text-align: center;
-	background: #fff;
-	border-radius: 50%;
-	font-size: 30px;
-	color: #1f1f1f;
+.highlights-block-one .inner-box .more-btn a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+    background: transparent;
+    border-radius: 0;
+    font-size: 30px;
+    color: #1f1f1f;
 }
 
-.highlights-block-one .inner-box .more-btn a span{
-	position: absolute;
-	left: 46px;
-	font-size: 12px;
-	line-height: 15px;
-	font-family: 'Urbanist', sans-serif;
-	font-weight: 800;
-	color: #1f1f1f;
-	text-transform: uppercase;
+.highlights-block-one .inner-box .more-btn a span {
+    display: none !important;
 }
-
 .highlights-block-one .inner-box .more-btn a span.curved-text-3{
 	top: 5px;
 }
@@ -16574,6 +16566,19 @@ div#mCSB_1_container{
 .social-links li a i {
     line-height: 1;
     text-align: center;
+}
+
+.highlights-section .more-btn .curved-circle-3,
+.highlights-section .more-btn .curved-circle-4,
+.highlights-section .more-btn::before,
+.highlights-section .more-btn::after,
+.highlights-section .more-btn a::before,
+.highlights-section .more-btn a::after {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 
